@@ -1,9 +1,9 @@
-import Badge from 'react-bootstrap/Badge';
+import Alert from 'react-bootstrap/Alert';
 
 const CompFooter = () => {
     return (
         <div>
-            <Badge pill bg="warning">Recuerda investigar cómo debes cuidar tus nuevas plantas</Badge>{' '}
+            <Alert className='text-center' variant='warning'>Recuerda investigar cómo debes cuidar tus nuevas plantas</Alert>
         </div>
     );
 }
