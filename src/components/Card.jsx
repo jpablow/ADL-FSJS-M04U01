@@ -8,7 +8,7 @@ const CompCard = (props) => {
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>{props.text}</Card.Text>
-                <a href={props.webUrl}><Button variant="info">+ Info</Button></a>
+                <a href={props.webUrl} target='_blank'><Button variant="info">+ Info</Button></a>
             </Card.Body>
         </Card>
     );
